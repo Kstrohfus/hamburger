@@ -27,12 +27,13 @@ body {
 
 #showcase {
     background: var(--primary-color);
+    color: #fff;
     height: 100vh;
     position: relative;
 }
 
 #showcase:before {
-    content: "";
+    content: " ";
     background: url("../img/union.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0;
@@ -49,7 +50,6 @@ body {
     justify-content: center;
     text-align: center;
     height: 100%;
-    color: #fff;
 }
 
 #showcase h1 {
